@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CommonCSS/listInStyle.css">
+    <style>
+        h1{
+            border-width: 10px;
+            border-style: double;
+            border-color: red;
+        }
+
+        .mode1{
+            width: 500px;
+            border: 5px solid rgb(18, 238, 234);
+            padding: 5px;
+            Margin: 5px;
+            border-radius: 30px 0px 30px 0px;
+            float: left;
+            font-size: 50px;
+            writing-mode: vertical-lr;
+        }
+        .mode2{
+            width: 500px;
+            border: 5px solid rgb(18, 238, 234);
+            padding: 5px;
+            Margin: 5px;
+            border-radius: 30px 0px 30px 0px;
+            float: left;
+            font-size: 50px;
+            /* writing-mode: vertical-rl; */
+            writing-mode: sideways-rl;
+        }
+          
+    </style>
+</head>
+<body>
+    <h1 class="attractive-heading">Writing Mode</h1>
+  <ul class="colorful-list">
+    <ol>
+        <li>Writing Mode Values</li>
+        <ol>
+          <li>Horizontal-tb (Default)</li>
+          <li>Vertical-rl</li>
+          <li>Vertical-lr</li>
+          <li>Sideways-rl</li>
+          <li>Sideways-lr</li>
+        </ol>
+      </ol>
+  </ul>
+  
+  <h4>This is for Writing mode</h4>
+  <div class="mode1">
+    1- ARVIND KHUSHBOO<br>
+    2- KHUSHBOO ARVIND
+  </div>
+  <div class="mode2">
+    1- ARVIND KHUSHBOO<br>
+    2- KHUSHBOO ARVIND
+  </div>
+</body>
+</html>
